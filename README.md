@@ -1,75 +1,7 @@
-# Nuxt Minimal Starter
+# Summary Optimiser
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+How much nuance, style and character is lost when we defer to AI summarisation?
 
-## Setup
+A quick evaluation tool to test a hunch. In what circumstances is it important for AI summary tools to be well-aligned with the original source text? What do Substack authors feel about these tools condensing their nuanced, crafted, and personal stories into three bullet points? 
 
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Used ChatGPT to reverse-engineer the prompts that browser tools like Arc use when summarising a page by feeding it a series of screenshots taken from the browsers along with the original source material. Then, using LLMs to evaluate the output against the original, I captured what is lost across several dimensions that are used in academia to assess writing.
